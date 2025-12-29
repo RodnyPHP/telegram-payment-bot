@@ -1,0 +1,12 @@
+app = "telegram-payment-bot-skfrgg"
+primary_region = "arn"
+
+[build]
+
+[processes]
+app = "python -m bot.main"
+
+[[vm]]
+  memory = "1gb"
+  cpu_kind = "shared"
+  cpus = 1
